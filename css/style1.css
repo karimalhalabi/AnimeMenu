@@ -1,0 +1,46 @@
+@font-face {
+    font-family: waar;
+    src: url("/css/font/Tajawal.woff2");
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: waar;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+    background-color: #130e23;
+}
+
+.box {
+    position: absolute;
+    background-color: rgba(250, 30, 50, 0.5);
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: rgba(250, 30, 50, 0.5) 2px solid;
+    box-shadow: 5px 5px 10px 8px rgba(0, 0, 0, 0.5), -5px -5px 10px 8px rgba(30, 30, 50, 0.5);
+}
+
+.menu {
+    box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
+    font-family: waar;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    z-index: 301;
+}
